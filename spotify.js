@@ -33,69 +33,67 @@ function secondsToMinutesSeconds(seconds) {
 }
 
 const songImagesMap = {
-  "Bekhayali": "/Spotify/Images/songs.jpeg",
-  "Hasi - Female Version": "/Spotify/Images/songs2.jpeg",
-  "Kahani Meri": "/Spotify/Images/songs3.jpeg",
-  "Naina": "/Spotify/Images/songs4.jpeg",
-  "Raabta": "/Spotify/Images/songs5.jpeg",
-  "Tera Ban Jaunga": "/Spotify/Images/songs6.jpeg",
-  "0 TO 100": "/Spotify/Images/songs7.jpeg",
-  "410": "/Spotify/Images/songs11.jpeg",
-  "East Side Flow": "/Spotify/Images/songs12.jpeg",
-  "HAIL": "/Spotify/Images/songs13.jpeg",
-  "NEVER FOLD": "/Spotify/Images/songs10.jpeg",
-  "My Prime": "/Spotify/Images/songs14.jpeg",
-  "Goin Off": "/Spotify/Images/songs9.jpeg",
-  "Elevated - Shubh": "/Spotify/Images/songs15.jpeg",
-  "Gangsta": "/Spotify/Images/songs16.jpeg",
-  "Shubh - King Shit": "/Spotify/Images/songs17.jpeg",
-  "Shubh - MVP": "/Spotify/Images/songs18.jpeg",
-  "Winning Speech": "/Spotify/Images/songs19.jpeg",
-  "Ae Dil Hai Mushkil (lyrics)": "/Spotify/Images/songs20.jpeg",
-  "Baari": "/Spotify/Images/songs21.jpeg",
-  "Duniyaa": "/Spotify/Images/songs22.jpeg",
-  "Lambiyaan Si Judaiyaan": "/Spotify/Images/songs23.jpeg",
-  "Malang": "/Spotify/Images/songs24.jpeg",
-  "Siyah": "/Spotify/Images/songs25.jpeg",
-  "Hasi Ban Gaye": "/Spotify/Images/songs26.jpeg",
-  "Jhol": "/Spotify/Images/songs27.jpeg",
-  "Mahiye Jinna Sohna": "/Spotify/Images/songs28.jpeg",
-  "Sun Saathiya": "/Spotify/Images/songs29.jpeg",
-  "Tune Jo Na Kaha Song": "/Spotify/Images/songs30.jpeg",
-  "Ye Tune Kya Kiya": "/Spotify/Images/songs31.jpeg",
-  "Humsafar": "/Spotify/Images/songs32.jpeg",
-  "KAUN TUJHE": "/Spotify/Images/songs33.jpeg",
-  "Lambiya Judaiyan": "/Spotify/Images/songs34.jpeg",
-  "Saari Duniya Jala Denge": "/Spotify/Images/songs35.jpeg",
-  "Samjhawan": "/Spotify/Images/songs36.jpeg",
-  "Dekha tennu": "/Spotify/Images/songs37.jpeg",
-  "Jeene Laga Hoon": "/Spotify/Images/songs38.jpeg",
-  "Sooryavanshi": "/Spotify/Images/songs39.jpeg",
-  "Tu Jo Mileya": "/Spotify/Images/songs41.jpeg",
-  "Udh Di Phiran": "/Spotify/Images/songs42.jpeg",
-  "295": "/Spotify/Images/songs48.jpeg",
-  "Drippy": "/Spotify/Images/songs49.jpeg",
-  "GAME": "/Spotify/Images/songs50.jpeg",
-  "GOAT": "/Spotify/Images/songs51.jpeg",
-  "KARAN Aujla Mega Mashup": "/Spotify/Images/songs52.jpeg",
-  "Shubh - One Love": "/Spotify/Images/songs53.jpeg",
-  "Bachke Bachke": "/Spotify/Images/songs54.jpeg",
-  "Chitta": "/Spotify/Images/songs55.jpeg",
-  "Diljit Dosanjh - G.O.A.T.": "/Spotify/Images/songs56.jpeg",
-  "DROPTOP - AP Dhillon": "/Spotify/Images/songs57.jpeg",
-  "Excuses": "/Spotify/Images/songs58.jpeg",
-  "SOFTLY": "/Spotify/Images/songs59.jpeg",
-  "Ishq": "/Spotify/Images/songs60.jpeg",
-  "Janiye": "/Spotify/Images/songs61.jpeg",
-  "Marham": "/Spotify/Images/songs62.jpeg",
-  "Moon Rise": "/Spotify/Images/songs60.jpeg",
-  "Tera Ban Jaunga": "/Spotify/Images/songs61.jpeg",
-  "Ve Haaniyaan": "/Spotify/Images/songs62.jpeg",
-  "Zindagi Kuch Toh Bata": "/Spotify/Images/zindagi.jpeg",
-
-  
- 
+  "Bekhayali": "Images/songs.jpeg",
+  "Hasi - Female Version": "Images/songs2.jpeg",
+  "Kahani Meri": "Images/songs3.jpeg",
+  "Naina": "Images/songs4.jpeg",
+  "Raabta": "Images/songs5.jpeg",
+  "Tera Ban Jaunga": "Images/songs6.jpeg",
+  "0 TO 100": "Images/songs7.jpeg",
+  "410": "Images/songs11.jpeg",
+  "East Side Flow": "Images/songs12.jpeg",
+  "HAIL": "Images/songs13.jpeg",
+  "NEVER FOLD": "Images/songs10.jpeg",
+  "My Prime": "Images/songs14.jpeg",
+  "Goin Off": "Images/songs9.jpeg",
+  "Elevated - Shubh": "Images/songs15.jpeg",
+  "Gangsta": "Images/songs16.jpeg",
+  "Shubh - King Shit": "Images/songs17.jpeg",
+  "Shubh - MVP": "Images/songs18.jpeg",
+  "Winning Speech": "Images/songs19.jpeg",
+  "Ae Dil Hai Mushkil (lyrics)": "Images/songs20.jpeg",
+  "Baari": "Images/songs21.jpeg",
+  "Duniyaa": "Images/songs22.jpeg",
+  "Lambiyaan Si Judaiyaan": "Images/songs23.jpeg",
+  "Malang": "Images/songs24.jpeg",
+  "Siyah": "Images/songs25.jpeg",
+  "Hasi Ban Gaye": "Images/songs26.jpeg",
+  "Jhol": "Images/songs27.jpeg",
+  "Mahiye Jinna Sohna": "Images/songs28.jpeg",
+  "Sun Saathiya": "Images/songs29.jpeg",
+  "Tune Jo Na Kaha Song": "Images/songs30.jpeg",
+  "Ye Tune Kya Kiya": "Images/songs31.jpeg",
+  "Humsafar": "Images/songs32.jpeg",
+  "KAUN TUJHE": "Images/songs33.jpeg",
+  "Lambiya Judaiyan": "Images/songs34.jpeg",
+  "Saari Duniya Jala Denge": "Images/songs35.jpeg",
+  "Samjhawan": "Images/songs36.jpeg",
+  "Dekha tennu": "Images/songs37.jpeg",
+  "Jeene Laga Hoon": "Images/songs38.jpeg",
+  "Sooryavanshi": "Images/songs39.jpeg",
+  "Tu Jo Mileya": "Images/songs41.jpeg",
+  "Udh Di Phiran": "Images/songs42.jpeg",
+  "295": "Images/songs48.jpeg",
+  "Drippy": "Images/songs49.jpeg",
+  "GAME": "Images/songs50.jpeg",
+  "GOAT": "Images/songs51.jpeg",
+  "KARAN Aujla Mega Mashup": "Images/songs52.jpeg",
+  "Shubh - One Love": "Images/songs53.jpeg",
+  "Bachke Bachke": "Images/songs54.jpeg",
+  "Chitta": "Images/songs55.jpeg",
+  "Diljit Dosanjh - G.O.A.T.": "Images/songs56.jpeg",
+  "DROPTOP - AP Dhillon": "Images/songs57.jpeg",
+  "Excuses": "Images/songs58.jpeg",
+  "SOFTLY": "Images/songs59.jpeg",
+  "Ishq": "Images/songs60.jpeg",
+  "Janiye": "Images/songs61.jpeg",
+  "Marham": "Images/songs62.jpeg",
+  "Moon Rise": "Images/songs60.jpeg",
+  "Tera Ban Jaunga": "Images/songs61.jpeg",
+  "Ve Haaniyaan": "Images/songs62.jpeg",
+  "Zindagi Kuch Toh Bata": "Images/zindagi.jpeg",
 };
+
 
 
 function getSongImage(songName) {
@@ -110,7 +108,7 @@ async function getSongs(folder) {
   // Fetch the song list from the server
   try {
     let songUrl = await fetch(
-      `http://192.168.100.4:5500/Spotify/songs/${folder}`
+      `http://192.168.100.4:5500/songs/${folder}`
     );
     let response = await songUrl.text(); // Fetches the response as a text (HTML structure)
 
@@ -130,7 +128,7 @@ async function getSongs(folder) {
       const href = element.getAttribute("href");
       if (href && href.endsWith(".mp3")) {
         let songName = href.split("/").pop();
-        let songPath = `http://192.168.100.4:5500/Spotify/songs/${folder}/${songName}`;
+        let songPath = `http://192.168.100.4:5500/songs/${folder}/${songName}`;
         songs.push(songPath);
       }
     });
@@ -191,7 +189,7 @@ function playMusic(trackUrl, li, trackName, artistName, albumImage) {
   }
 
   // Update play button image
-  playImg.src = "/Spotify/working.svg";
+  playImg.src = "working.svg";
 }
 async function run() {
   try {
@@ -230,7 +228,7 @@ async function run() {
                 <div class="playlist-image">
                     <img src="${imageSrc}" alt="Playlist Cover">
                     <div class="play-button-talha">
-                      <img class="play-talha"  src="/Spotify/lefticon.svg" alt="" srcset="">
+                      <img class="play-talha"  src="/lefticon.svg" alt="" srcset="">
                     </div>
                 </div>
                 <div class="playlist-info">
@@ -238,7 +236,7 @@ async function run() {
                     <p class="playlist-details">Playlist • ${artistName}</p>
                 </div>
                 <div class="playlist-controls">
-                 <img style=" font-weight: bold; width: 17px; margin-left: -24px;" src="/Spotify/mutegreen.svg" alt="" srcset="">
+                 <img style=" font-weight: bold; width: 17px; margin-left: -24px;" src="/mutegreen.svg" alt="" srcset="">
                 </div>
             </div>`;
 
@@ -250,14 +248,14 @@ async function run() {
             artistName,
             imageSrc
           );
-          playImg.src = "/Spotify/working.svg";
+          playImg.src = "/working.svg";
         });
 
         songUl.appendChild(li);
       });
     }
     loadSongInPlayerBar(0);
-    playImg.src = "/Spotify/lefticon.svg";
+    playImg.src = "/lefticon.svg";
   } catch (error) {
     console.error("Error running the song list:", error);
   }
@@ -266,12 +264,12 @@ async function run() {
     if (songs && songs.length > 0) {
       if (currSong.paused && currSong.src) {
         currSong.play();
-        playImg.src = "/Spotify/working.svg";
+        playImg.src = "working.svg";
       } else if (!currSong.src) {
         playSongByIndex(0);
       } else {
         currSong.pause();
-        playImg.src = "/Spotify/pause.svg";
+        playImg.src = "pause.svg";
       }
     } else {
       console.warn("No songs available to play.");
@@ -403,7 +401,7 @@ async function run() {
   next.addEventListener("click", () => {
     if (currentIndex < songs.length - 1) {
       currentIndex++; // Move to the next song
-      playImg.src = "/Spotify/working.svg";
+      playImg.src = "working.svg";
     } else {
       currentIndex = 0; // If at the last song, loop to the first song
     }
@@ -418,10 +416,10 @@ async function run() {
       // If the song is already muted
       if (currSong.muted) {
         currSong.muted = false; // Unmute the song
-        muteIcon.src = "/Spotify/mutegreen.svg"; // Change icon back to unmuted state
+        muteIcon.src = "mutegreen.svg"; // Change icon back to unmuted state
       } else {
         currSong.muted = true; // Mute the song
-        muteIcon.src = "/Spotify/songmute.svg"; // Change icon to muted state
+        muteIcon.src = "songmute.svg"; // Change icon to muted state
       }
     });
   });
@@ -453,7 +451,7 @@ async function run() {
               <div class="playlist-image">
                 <img src="${imageSrc}" alt="Playlist Cover">
                 <div class="play-button-talha">
-                  <img class="play-talha" src="/Spotify/lefticon.svg" alt="">
+                  <img class="play-talha" src="/lefticon.svg" alt="">
                 </div>
               </div>
               <div class="playlist-info">
@@ -470,7 +468,7 @@ async function run() {
               artistName,
               imageSrc
             );
-            playImg.src = "/Spotify/working.svg";
+            playImg.src = "/working.svg";
           });
   
           songUl.appendChild(li);
@@ -525,14 +523,14 @@ function toggleMute() {
     // If muted, unmute and restore the previous volume
     currSong.volume = previousVolume; // Restore the previous volume
     volumeThumb.style.width = `${previousVolume * 100}%`; // Update volume progress bar
-    volumeIcon.src = "/Spotify/mute.svg"; // Change the icon to indicate volume is up
+    volumeIcon.src = "mute.svg"; // Change the icon to indicate volume is up
     isMuted = false; // Update mute state
   } else {
     // Mute the audio and store the current volume before muting
     previousVolume = currSong.volume; // Save the current volume
     currSong.volume = 0; // Set volume to zero (mute)
     volumeThumb.style.width = "0%"; // Update volume progress bar to 0
-    volumeIcon.src = "/Spotify/songmute.svg"; // Change the icon to indicate muted
+    volumeIcon.src = "songmute.svg"; // Change the icon to indicate muted
     isMuted = true; // Update mute state
   }
 }
