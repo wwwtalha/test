@@ -108,7 +108,7 @@ async function getSongs(folder) {
   // Fetch the song list from the server
   try {
     let songUrl = await fetch(
-      `http://192.168.100.4:5500/songs/${folder}`
+      `songs/${folder}`
     );
     let response = await songUrl.text(); // Fetches the response as a text (HTML structure)
 
@@ -128,7 +128,7 @@ async function getSongs(folder) {
       const href = element.getAttribute("href");
       if (href && href.endsWith(".mp3")) {
         let songName = href.split("/").pop();
-        let songPath = `http://192.168.100.4:5500/songs/${folder}/${songName}`;
+        let songPath = `songs/${folder}/${songName}`;
         songs.push(songPath);
       }
     });
