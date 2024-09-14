@@ -1,4 +1,4 @@
-console.log("JS WORKING");
+console.log("JS WORKING das  ")
 let songs;
 let currFolder;
 let currSong = new Audio(); // Initialize an Audio object
