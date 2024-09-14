@@ -228,7 +228,7 @@ async function run() {
                 <div class="playlist-image">
                     <img src="${imageSrc}" alt="Playlist Cover">
                     <div class="play-button-talha">
-                      <img class="play-talha"  src="/lefticon.svg" alt="" srcset="">
+                      <img class="play-talha"  src="lefticon.svg" alt="" srcset="">
                     </div>
                 </div>
                 <div class="playlist-info">
@@ -236,7 +236,7 @@ async function run() {
                     <p class="playlist-details">Playlist • ${artistName}</p>
                 </div>
                 <div class="playlist-controls">
-                 <img style=" font-weight: bold; width: 17px; margin-left: -24px;" src="/mutegreen.svg" alt="" srcset="">
+                 <img style=" font-weight: bold; width: 17px; margin-left: -24px;" src="mutegreen.svg" alt="" srcset="">
                 </div>
             </div>`;
 
@@ -248,14 +248,14 @@ async function run() {
             artistName,
             imageSrc
           );
-          playImg.src = "/working.svg";
+          playImg.src = "working.svg";
         });
 
         songUl.appendChild(li);
       });
     }
     loadSongInPlayerBar(0);
-    playImg.src = "/lefticon.svg";
+    playImg.src = "lefticon.svg";
   } catch (error) {
     console.error("Error running the song list:", error);
   }
@@ -451,7 +451,7 @@ async function run() {
               <div class="playlist-image">
                 <img src="${imageSrc}" alt="Playlist Cover">
                 <div class="play-button-talha">
-                  <img class="play-talha" src="/lefticon.svg" alt="">
+                  <img class="play-talha" src="lefticon.svg" alt="">
                 </div>
               </div>
               <div class="playlist-info">
@@ -468,7 +468,7 @@ async function run() {
               artistName,
               imageSrc
             );
-            playImg.src = "/working.svg";
+            playImg.src = "working.svg";
           });
   
           songUl.appendChild(li);
