@@ -1,0 +1,19 @@
+.red-border {
+  border: 2px solid red;
+  margin: 3px;
+}
+.flex {
+  display: flex;
+}
+
+.text-aligns {
+  text-align: center;
+}
+
+.justify-content {
+  justify-content: center;
+}
+
+.filter{
+  filter: invert(1);
+}

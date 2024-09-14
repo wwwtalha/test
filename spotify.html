@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify</title>
+    <link rel="stylesheet" href="spotify.css" />
+    <link rel="stylesheet" href="utitilty.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="shortcut icon" href="/Spotify/Images/favicon.ico" type="image/x-icon">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="navbar">
+      
+      <!-- Left Icons -->
+      <div class="navbar-left">
+        <img
+          class="main-logo filter"
+          src="/Spotify/logo.svg"
+          alt="Spotify Logo"
+        />
+      </div>
+      <!-- <div class="search-phele">
+                <button class="nav-icon-button">
+                    <img class="home-logo filter" src="/Spotify/home.svg" alt="Home">
+                </button>
+            </div> -->
+
+      <!-- Search Bar -->
+      <div class="search-container">
+        <img
+          class="search-logo filter-small"
+          src="/Spotify/search.svg"
+          alt="Search"
+        />
+        <input
+          type="text"
+          placeholder="What do you want to play?"
+          class="search-input"
+        />
+        <img
+          class="browser-logo filter-small"
+          src="/Spotify/browser.svg"
+          alt="Browser"
+        />
+      </div>
+
+      <!-- Right Side -->
+      <div class="navbar-right">
+        <a href="#" class="signup-link">Sign up</a>
+        <button class="login-button">Log in</button>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="left-bar">
+        <div class="sidebar">
+          <!-- Your Library Section -->
+          <div class="library-section">
+            <img
+              src="/Spotify/libaray.svg"
+              alt="Library Icon"
+              class="library-icon"
+            />
+            <span class="library-text">Your Library</span>
+            <button class="add-button">+</button>
+          </div>
+
+
+    
+          
+
+         
+            <div class="sidebar-buttons">
+              <button class="sidebar-btn active">Playlists</button>
+              <button class="sidebar-btn">Artists</button>
+            </div>
+            <div class="sidebar-recents">
+              <img src="/Spotify/newser.svg" alt="Search Icon" class="sidebar-icon" />
+             
+
+            <div class="moms">
+
+          <div class="span-recsad">
+
+        
+              <span class="recents-text">Recents</span>
+            </div>
+              <img src="/Spotify/tal.svg" alt="Recents Icon" class="sidebar-icon" />
+            </div>
+            </div>
+        
+          
+
+          <!-- now making the cards for song -->
+<div class="songList">
+
+
+          <ul>
+            <li>
+              <div class="playlist-box">
+                <div class="playlist-image">
+                    <img src="/Spotify/Images/zindagi.jpeg" alt="Playlist Cover">
+                    <div class="play-button-talha">
+                      <img class="play-talha"  src="/Spotify/lefticon.svg" alt="" srcset="">
+                    </div>
+                </div>
+                <div class="playlist-info">
+                    <h3 class="playlist-title">No Stress</h3>
+                    <p class="playlist-details">Playlist • TALHA</p>
+                </div>
+                <div class="playlist-controls">
+                 <img style=" font-weight: bold; width: 17px; margin-left: -24px;" src="/Spotify/mutegreen.svg" alt="" srcset="">
+                </div>
+            </div>
+            </li>
+          </ul>
+        </div>
+          <!-- Create Playlist Section -->
+          <!-- <div class="create-playlist-section">
+            <h3>Create your first playlist</h3>
+            <p>It's easy, we'll help you</p>
+            <button class="create-playlist-button">Create playlist</button>
+          </div> -->
+        
+          <!-- Legal Links Section -->
+          <div class="legal-section">
+            <a href="#">Legal</a>
+            <a href="#">Safety & Privacy Center</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Cookies</a>
+            <a href="#">About Ads</a>
+            <a href="#">Accessibility</a>
+          </div>
+
+          <!-- Language Button -->
+          <div class="language-section">
+            <button class="language-button">
+              <img
+                style="filter: invert(1)"
+                src="/Spotify/internet.svg"
+                alt="Language Icon"
+              />
+              English
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="right-bar">
+      
+
+
+
+        <div class="popular-albums-section">
+            <div class="popular-albums-header">
+                <h2 class="popular-albums-heading">Made For talha.code</h2>
+                <a href="#" class="show-all-link">Show all</a> <!-- Show all link -->
+            </div>
+
+
+
+
+    
+            <div class="albumCardContainer">
+                <!-- Album Card 1 -->
+                <div class="album-card" data-folder="sads">
+                    <div class="play-button">
+                        <div class="play-icon"></div>
+                      </div>
+                    <img src="/Spotify/covers/1.jpeg" alt="Jhol Album Cover" class="album-image">
+                    <div class="album-info">
+                        <h3 class="album-name">Late Night</h3>
+                        <p class="album-artist"><a href="#">Maanu</a>, <a href="#">Annural Khalid</a></p>
+                    </div>
+                </div>
+                <!-- Album Card 2 -->
+                <div class="album-card karuns" data-folder="sidhu">
+                    <div class="play-button">
+                        <div class="play-icon"></div>
+                      </div>
+                    <img src="/Spotify/covers/2.jpeg" alt="Making Memories Album Cover" class="album-image">
+                    <div class="album-info">
+                        <h3 class="album-name">Hip Te Hop</h3>
+                        <p class="album-artist"><a href="#">Sidhu Moose Wala                        </a></p>
+                    </div>
+                </div>
+                <!-- Album Card 3 -->
+                <div class="album-card " data-folder="subh">
+                    <div class="play-button">
+                        <div class="play-icon"></div>
+                      </div>
+                    <img src="/Spotify/covers/4.jpeg" alt="Still Rollin Album Cover" class="album-image">
+                    <div class="album-info">
+                        <h3 class="album-name">Aam Jahe Munde</h3>
+                        <p class="album-artist"><a href="#">Pardhaan</a>,<a href="#">Parmish Verma</a></p>
+                    </div>
+                </div>
+                <!-- Album Card 4 -->
+                <div class="album-card " data-folder="romantics">
+                    <div class="play-button">
+                        <div class="play-icon"></div>
+                      </div>
+                    <img src="/Spotify/covers/5.jpeg" alt="ROCKSTAR WITHOUT A GUITAR Album Cover"
+                        class="album-image">
+                    <div class="album-info">
+                        <h3 class="album-name">Sad Song 🥀💔</h3>
+                        <p class="album-artist"><a href="#">Arijit Singh                        </a></p>
+                    </div>
+                </div>
+                <!-- Album Card 5 -->
+                <div class="album-card " data-folder="feelings">
+                      <div class="play-button">
+                        <div class="play-icon"></div>
+                      </div>
+                    <img src="/Spotify/covers/3.jpeg" alt="Jo Tum Mere Ho Album Cover" class="album-image">
+                    <div class="album-info">
+                        <h3 class="album-name">Jo Tum Mere Ho</h3>
+                        <p class="album-artist">Anuv Jain</p>
+                    </div>
+                </div>
+
+
+                   <!-- ALBUM----------666 -->
+          <div class="album-card" data-folder="chaiye">
+            <div class="play-button">
+                <div class="play-icon"></div>
+              </div>
+            <img src="/Spotify/covers/9.jpeg" alt="ROCKSTAR WITHOUT A GUITAR Album Cover"
+                class="album-image">
+            <div class="album-info">
+                <h3 class="album-name">Chaye & Chill</h3>
+                <p class="album-artist">Umair</p>
+            </div>
+        </div>
+
+        
+
+
+            </div>
+        </div>
+
+
+
+
+
+
+        <div class="popular-albums-header">
+          <h2 class="popular-albums-heading" style="margin-top: 25px;">Based on your recent listening</h2>
+          <a href="#" class="show-all-link">Show all</a> <!-- Show all link -->
+      </div>
+        <div class="albumCardContainer">
+          <!-- Album Card 1 -->
+          <div class="album-card"  data-folder="jhol">
+              <div class="play-button">
+                  <div class="play-icon"></div>
+                </div>
+              <img src="/Spotify/Images/jhol.jpeg" alt="Jhol Album Cover" class="album-image">
+              <div class="album-info">
+                  <h3 class="album-name">Jhol</h3>
+                  <p class="album-artist"><a href="#">Maanu</a>, <a href="#">Annural Khalid</a></p>
+              </div>
+          </div>
+          <!-- Album Card 2 -->
+          <div class="album-card"  data-folder="karuns">
+              <div class="play-button" >
+                  <div class="play-icon"></div>
+                </div>
+              <img src="/Spotify/Images/karun.jpeg" alt="Making Memories Album Cover" class="album-image">
+              <div class="album-info">
+                  <h3 class="album-name">Making Memories</h3>
+                  <p class="album-artist">Karan Aujla, Ikky</p>
+              </div>
+          </div>
+          <!-- Album Card 3 -->
+          <div class="album-card"  data-folder="romantics">
+              <div class="play-button">
+                  <div class="play-icon"></div>
+                </div>
+              <img src="/Spotify/covers/6.jpeg" alt="Still Rollin Album Cover" class="album-image">
+              <div class="album-info">
+                  <h3 class="album-name">Romantic 🩷</h3>
+                  <p class="album-artist"><a href="#">Pritam</a>,<a href="#">Arijit Singh</a></p>
+              </div>
+          </div>
+          <!-- //// -->
+
+
+
+          <!-- Album Card 4 -->
+          <div class="album-card"  data-folder="rock">
+              <div class="play-button">
+                  <div class="play-icon"></div>
+                </div>
+              <img src="/Spotify/Images/aslam.jpeg" alt="ROCKSTAR WITHOUT A GUITAR Album Cover"
+                  class="album-image">
+              <div class="album-info">
+                  <h3 class="album-name">ROCKSTAR</h3>
+                  <p class="album-artist"><a href="#">Umair</a></p>
+              </div>
+          </div>
+          <!-- Album Card 5 -->
+          <div class="album-card"  data-folder="sads">
+                <div class="play-button">
+                  <div class="play-icon"></div>
+                </div>
+              <img src="/Spotify/covers/7.jpeg" alt="Jo Tum Mere Ho Album Cover" class="album-image">
+              <div class="album-info">
+                  <h3 class="album-name">BollyWood Central</h3>
+                  <p class="album-artist"><a href="#">Sonu Nigam</a></p>
+              </div>
+          </div>
+
+          <!-- album--------------6666 -->
+          <div class="album-card"  data-folder="bolywood">
+                <div class="play-button" >
+                  <div class="play-icon"></div>
+                </div>
+              <img src="/Spotify/covers/8.jpeg" alt="Jo Tum Mere Ho Album Cover" class="album-image">
+              <div class="album-info">
+                  <h3 class="album-name">Mere Sohnye</h3>
+                  <p class="album-artist"><a href="#">Shreya Ghoshal</a></p>
+              </div>
+          </div>
+
+
+      
+          
+      </div>
+
+      <div class="footer-last-main">
+          <div class="footer-container">
+    <div class="footer-column">
+      <h3>Company</h3>
+      <ul>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Jobs</a></li>
+        <li><a href="#">For the Record</a></li>
+      </ul>
+    </div>
+    <div class="footer-column">
+      <h3>Communities</h3>
+      <ul>
+        <li><a href="#">For Artists</a></li>
+        <li><a href="#">Developers</a></li>
+        <li><a href="#">Advertising</a></li>
+        <li><a href="#">Investors</a></li>
+        <li><a href="#">Vendors</a></li>
+      </ul>
+    </div>
+    <div class="footer-column">
+      <h3>Useful links</h3>
+      <ul>
+        <li><a href="#">Support</a></li>
+        <li><a href="#">Free Mobile App</a></li>
+      </ul>
+    </div>
+    <div class="footer-column">
+      <h3>Spotify Plans</h3>
+      <ul>
+        <li><a href="#">Premium Individual</a></li>
+        <li><a href="#">Premium Duo</a></li>
+        <li><a href="#">Premium Family</a></li>
+        <li><a href="#">Premium Student</a></li>
+        <li><a href="#">Spotify Free</a></li>
+      </ul>
+    </div>
+    <div class="footer-social">
+      <a href="#"><img style="filter: invert(1); width: 22px;" src="/Spotify/linkedin.svg" alt="Instagram"></a>
+      <a href="#"><img style="filter: invert(1); width: 22px;" src="/Spotify/facebook.svg" alt="Twitter"></a>
+      <a href="#"><img style="filter: invert(1); width: 22px;" src="/Spotify/twitter.svg" alt="Facebook"></a>
+    </div>
+  </div>
+
+
+
+  <div class="footer-bottom">
+    <ul class="footer-links">
+      <li><a href="#">Legal</a></li>
+      <li><a href="#">Safety & Privacy Center</a></li>
+      <li><a href="#">Privacy Policy</a></li>
+      <li><a href="#">Cookies</a></li>
+      <li><a href="#">About Ads</a></li>
+      <li><a href="#">Accessibility</a></li>
+    </ul>
+    <p class="copyright">© 2024 Spotify AB</p>
+  </div>
+      </div>
+      
+  </div>
+  
+  <!-- <div class="playBar" style="color: red;"> -->
+
+
+    <div class="player-bar">
+      <div class="track-info">
+          <img style="border-radius: 8px;" src="/Spotify/Images/songs7.jpeg" alt="Album Cover" class="album-art">
+          <div class="track-details">
+              <span class="track-name">0 to 100</span>
+              <span class="track-artists">Sidhu Moose Wala              </span>
+          </div>
+          <!-- <span class="verified">&#10004;</span> -->
+      </div>
+      <div class="footer-center">
+
+ 
+      <div class="player-controls">
+          <button class="control-btn shuffle koks">    <img   src="/Spotify/shuffle.svg" alt="" srcset=""></button>
+          <button class="control-btn prev koks">    <img   src="/Spotify/playleft.svg" alt="" srcset=""></button>
+          <button class="control-btn play">    <img id="playimg"  src="/Spotify/pause.svg" alt="" srcset=""></button>
+          <button class="control-btn next koks">    <img   src="/Spotify/playright.svg" alt="" srcset=""></button>
+          <button class="control-btn queue koks">    <img   src="/Spotify/replay.svg" alt="" srcset=""></button>
+      </div>
+      <div class="progress-container">
+        <div class="time duarationleft">1:27</div>
+        <div class="progress-bar">
+          <div class="progress"></div>
+          <div class="progress-thumb"></div>
+        </div>
+        <div class="time finalDuration">4:30</div>
+      </div>
+    
+    </div>
+
+    <div class="media-controls">
+      <button class="volume-icon">
+          <img class="muteten imos" src="/Spotify/mute.svg" alt="Volume Icon">
+      </button>
+      <div class="progress-bar-container">
+          <div class="progress-bar-ops">
+              <div class="progress-ops"></div>
+              <!-- <div class="progress-thumbss"></div> -->
+          </div>
+      </div>
+      <div class="screen-controls">
+          <button style="margin-left: 10px;" class="minimize-icon imos">
+              <img class="exten2" src="/Spotify/exten2.svg" alt="Minimize">
+          </button>
+          <button style="margin-left: 10px;" class="fullscreen-icon imos">
+              <img class="exten3" src="/Spotify/exten3.svg" alt="Fullscreen">
+          </button>
+      </div>
+  </div>
+
+  <!-- </div> -->
+
+
+
+
+
+        
+
+
+
+      </div>
+     </div>
+
+    <!-- <footer>
+        <div class="sticky-card" id="sticky-card">
+            <div class="card-content">
+                <h3>Preview of Spotify</h3>
+                <p>Sign up to get unlimited songs and podcasts with occasional ads. No credit card needed.</p>
+            </div>
+            <a href="#" class="signup-button">Sign up for free</a>
+            <span class="close-btn" id="close-btn">&times;</span> 
+        </div> -->
+
+    <!-- <script>
+            // JavaScript to close the card
+            document.getElementById('close-btn').addEventListener('click', function() {
+                document.getElementById('sticky-card').style.display = 'none';
+            });
+        </script> -->
+    <!-- </footer> -->
+    <script src="/Spotify/spotify.js"></script>
+  </body>
+</html>
